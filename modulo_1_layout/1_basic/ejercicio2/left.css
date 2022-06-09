@@ -1,0 +1,40 @@
+.box {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.box-1 {
+  background-color: #FE0000;
+}
+
+.box-2 {
+  background-color: #660000;
+}
+
+.box-3 {
+  background-color: #FFBFCD;
+  color: black;
+}
+
+.primary {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.secondary {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box-4 {
+  color: black;
+  box-shadow: -5px 5px 5px #000000a7;
+  border: 1px solid grey;
+}
+
+.box-4 > p {
+  margin: 0;
+  text-align: center;
+}

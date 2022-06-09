@@ -1,0 +1,42 @@
+.box {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.box-1 {
+  background-color: #0000FF;
+}
+
+.box-2 {
+  background-color: #000066;
+}
+
+.box-3 {
+  background-color: #00FFFF;
+  color: black;
+}
+
+.primary {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.secondary {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.box-4 {
+  color: black;
+  box-shadow: 5px 5px 5px #000000a7;
+  border: 1px solid grey;
+}
+
+.box-4 > p {
+  margin: 0;
+  text-align: center;
+}
