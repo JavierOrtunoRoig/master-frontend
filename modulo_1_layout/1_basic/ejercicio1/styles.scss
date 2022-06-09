@@ -1,0 +1,91 @@
+$base-color-1: #f44336;
+$base-color-2: #3f51b5;
+$base-color-3: #4caf50;
+
+@mixin flex-wrap {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+@mixin flex-center-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+
+    @include flex-wrap;
+
+    .box {
+        @include flex-center-box;
+        background-color: $base-color-1;
+        height: 100px;
+        width: 100px;
+    }
+    
+    .container-1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        @for $i from 1 to 5 {
+            .darken-#{$i} {
+                background-color: darken($color: $base-color-1, $amount: $i * 7.5);
+                color: lighten($color: $base-color-1, $amount: $i * 25);
+            }
+
+            .lighten-#{$i} {
+                background-color: lighten($color: $base-color-1, $amount: $i * 7.5);
+            }
+        }
+    }
+
+    .container-2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .box {
+            background-color: $base-color-2;
+        }
+
+        @for $i from 1 to 5 {
+            .darken-#{$i} {
+                background-color: darken($color: $base-color-2, $amount: $i * 7.5);
+                color: lighten($color: $base-color-2, $amount: $i * 25);
+            }
+
+            .lighten-#{$i} {
+                background-color: lighten($color: $base-color-2, $amount: $i * 7.5);
+            }
+        }
+    }
+
+    .container-3 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .box {
+            background-color: $base-color-3;
+        }
+
+        @for $i from 1 to 5 {
+            .darken-#{$i} {
+                background-color: darken($color: $base-color-3, $amount: $i * 7.5);
+                color: lighten($color: $base-color-3, $amount: $i * 25);
+            }
+
+            .lighten-#{$i} {
+                background-color: lighten($color: $base-color-3, $amount: $i * 7.5);
+            }
+        }
+    }
+}
