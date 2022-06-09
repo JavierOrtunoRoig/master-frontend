@@ -23,13 +23,13 @@ $ parcel index.html
 
 Se ha usado flexbox para centrar los elementos en la pantalla. Se parte de un archivo *index.css*, en el que se encuentran los estilos necesarios para centrar los elementos. En dicho archivo se puede importar otros dos archivos *.css*, estos son *left.css* y *right.css*, dependiendo de cual importemos conseguiremos que los elementos tengan los estilos de la parte izquierda o derecha del ejemplo del enunciado.
 
-* Para conseguir el tema A (izquierdo) del ejemplo, acceder a index.css y dejar los imports de la siguiente manera
+* Para conseguir el tema A (izquierdo) del ejemplo, hay que acceder a index.css y dejar los imports de la siguiente manera:
 ```css
 @import 'left.css';
 /* @import 'right.css'; */
 ```
 
-* Para conseguir el tema B (derecho) del ejemplo, acceder a index.css y dejar los imports de la siguiente manera
+* Para conseguir el tema B (derecho) del ejemplo, hay que acceder a index.css y dejar los imports de la siguiente manera
 ```css
 /* @import 'left.css'; */
 @import 'right.css';
@@ -41,4 +41,4 @@ Se ha hecho uso de flexbox y media queries para conseguir un menú responsivo.
 
 ## Ejercicio 4
 
-Se ha usado CSS Grid para crear un Card como la del ejemplo del enunciado y se ha hecho uso del flexbox para centrar dicha Card
+Se ha usado CSS Grid para crear un Card como la del ejemplo del enunciado y se ha hecho uso del flexbox para centrar dicha Card.
