@@ -12,7 +12,7 @@ Para la resolución de este ejercicio se ha usado Sass. Para poder compilar y co
 $ npm i -g parcel-bundler
 ```
 
-y para compilar hacer falta entrar en la carpeta del ejercicio y ejecutar parcel:
+y para compilar hace falta entrar en la carpeta del ejercicio y ejecutar parcel:
 
 ```console
 $ cd ejercicio1
