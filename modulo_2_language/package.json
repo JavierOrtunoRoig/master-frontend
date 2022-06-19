@@ -1,0 +1,24 @@
+{
+  "name": "modulo_2_language",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-w": "tsc --watch",
+    "dev": "nodemon build/*.js",
+    "ejercicio1": "nodemon build/ejercicio1.js",
+    "ejercicio2": "nodemon build/ejercicio2.js",
+    "ejercicio3": "nodemon build/ejercicio3.js",
+    "ejercicio4": "nodemon build/ejercicio4.js",
+    "ejercicio5": "nodemon build/ejercicio5.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
