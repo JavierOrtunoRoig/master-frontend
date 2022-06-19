@@ -8,11 +8,11 @@ Para ejecutar los ejercicios hay que ir a la carpeta build y ejecutar el ejercic
 
 ```console
 $ cd build
-$ node ejercicio1
-$ node ejercicio2
-$ node ejercicio3
-$ node ejercicio4
-$ node ejercicio5
+$ node ejercicio1.js
+$ node ejercicio2.js
+$ node ejercicio3.js
+$ node ejercicio4.js
+$ node ejercicio5.js
 ```
 
 ## Ejercicio 1
