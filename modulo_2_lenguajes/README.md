@@ -1,4 +1,4 @@
-# Ejercicios módulo 2 - Language
+# Ejercicios módulo 2 - Lenguajes
 
 En este directorio se encuentran los ejercicios del segundo módulo de la XII Edición de máster.
 
