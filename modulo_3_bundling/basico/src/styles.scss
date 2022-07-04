@@ -1,0 +1,22 @@
+$background: rgb(210, 242, 253);
+
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.saludos {
+  background-color: $background;
+}
